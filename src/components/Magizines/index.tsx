@@ -23,7 +23,11 @@ export default function Magazines(props: Iprops) {
 const Container = styled.article`
   width: 100%;
   height: 100vh;
+  /* height: 800px; */
+  min-height: 720px;
+  max-height: 900px;
   display: grid;
   box-sizing: border-box;
   grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
 `;

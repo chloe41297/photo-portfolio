@@ -23,6 +23,8 @@ export default function (props: Iprops) {
 
 const Main = styled.main<MainTheme>`
   width: 100%;
+  height: 100%;
+  max-height: 900px;
   background-color: ${(props) => props.coverColor};
   display: flex;
   flex-direction: column;

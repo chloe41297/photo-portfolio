@@ -14,6 +14,11 @@ const data = {
     "https://cdn.pixabay.com/photo/2022/04/04/13/54/city-7111380__480.jpg",
     "https://cdn.pixabay.com/photo/2015/01/29/15/57/modern-616312__480.jpg",
   ],
+  carouselImgs: [
+    "https://blog-www.pods.com/wp-content/uploads/2019/04/MG_1_1_New_York_City-1.jpg",
+    "https://cdn.pixabay.com/photo/2022/04/04/13/54/city-7111380__480.jpg",
+    "https://cdn.pixabay.com/photo/2015/01/29/15/57/modern-616312__480.jpg",
+  ],
 };
 // {
 // mainColor: "#88966D",
@@ -45,7 +50,7 @@ function App() {
         subImgs={data.subImgs}
       ></Magazines>
 
-      <ShowCase bgColor={data.mainColor}></ShowCase>
+      <ShowCase bgColor={data.mainColor} imgs={data.carouselImgs}></ShowCase>
     </div>
   );
 }
